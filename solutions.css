@@ -44,6 +44,7 @@
   margin: 0;
   height: 100px;
   width: 100px;
+  transform: scale(1.2);
 }
 
 .ex-6-img:hover{
@@ -69,5 +70,17 @@
   filter:brightness(1) sepia(.7);
 }
 
+.ex-9-img{
+  border: 1 px solid;
+  border-radius: 0;
+  transition: all 1s ease 0s;
+  margin: 50px 100px;
+  width: 400px;
+}
 
+.ex-9-img:hover{
+  border-radius: 5%;
+  filter:brightness(1) sepia(.7);
+  transform: scale(1.5);
+}
 
