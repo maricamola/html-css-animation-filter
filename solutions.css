@@ -33,3 +33,36 @@
   opacity:0;
 }
 
+.ex-5-square{
+  margin: 20px;
+  height: 60px;
+  width: 60px;
+  transition: all 1s ease 0s;
+}
+
+.ex-5-square:hover{
+  margin: 0;
+  height: 100px;
+  width: 100px;
+}
+
+.ex-6-img:hover{
+  filter: grayscale(100%);
+}
+
+.ex-7-img{
+  transition: all 1s ease 0s;
+}
+
+.ex-7-img:hover{
+  filter: sepia(1) brightness(0.9) contrast(1);
+}
+
+.ex-8-square{
+  border: 1 px solid;
+}
+
+.ex-8-square{
+  
+}
+
