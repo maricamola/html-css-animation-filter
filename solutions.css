@@ -58,11 +58,16 @@
   filter: sepia(1) brightness(0.9) contrast(1);
 }
 
-.ex-8-square{
+.ex-8-img{
   border: 1 px solid;
+  border-radius: 0;
+  transition: all 1s ease 0s;
 }
 
-.ex-8-square{
-  
+.ex-8-img:hover{
+  border-radius: 5%;
+  filter:brightness(1) sepia(.7);
 }
+
+
 
