@@ -23,3 +23,13 @@
   border-radius: 50px;
   background-color: red;
 }
+
+.ex-4-square{
+  transition: all 1s ease 0s;
+  opacity: 100%;
+}
+
+.ex-4-square:hover{
+  opacity:0;
+}
+
