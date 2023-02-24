@@ -14,3 +14,12 @@
   width:100%;
 }
 
+.ex-3-square{
+  border: 1px solid red;
+  transition-duration: .5s;
+}
+
+.ex-3-square:hover{
+  border-radius: 50px;
+  background-color: red;
+}
