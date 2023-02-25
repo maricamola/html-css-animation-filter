@@ -120,6 +120,90 @@
   }
 }
 
+.ex-12-button:hover .ex-12-top-white{
+  animation-name: rolltop;
+  animation-duration: 2s;
+  animation-iteration-count:1;
+}
+
+@keyframes rolltop{
+  0%{
+    left:20%;
+  }
+  50%{
+    left: 60%;
+  }
+
+  100%{
+    left: 10%;
+  }
+}
+
+.ex-12-button:hover .ex-12-bottom-white{
+  animation-name: rollbottom;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+
+@keyframes rollbottom{
+  0%{
+    right:20%;
+  }
+  50%{
+    right: 60%;
+  }
+
+  100%{
+    right: 10%;
+  }
+}
+
+
+.ex-13-button:hover .ex-13-top-white{
+  animation-name: movetopcomplete;
+  animation-duration: 4s;
+  animation-iteration-count: 2;
+}
+
+@keyframes movetopcomplete{
+  0%{
+    top:-10px; 
+    left; 10%
+  }
+
+  20%{
+    top:-10px;
+    left: 20%;
+  }
+
+  50%{
+    top:-10px;
+    left: 50%;
+  }
+  
+  70%{
+    top:-10px;
+    left: 70%;
+  }
+
+}
+
+
+
+.ex-13-button:hover .ex-13-bottom-white{
+  animation-name: movebottomcomplete;
+  animation-duration: 4s linear;
+  animation-iteration-count: 1;
+}
+
+
+
+
+
+
+
+
+
 
 
 
